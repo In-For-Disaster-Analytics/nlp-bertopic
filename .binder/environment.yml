@@ -1,13 +1,7 @@
 name: llm
 channels:
   - conda-forge
-  - pytorch 
-  - nvidia
 dependencies:
-  - pytorch
-  - pytorch-cuda=12.1
-  - torchaudio
-  - torchvision
   - hdbscan
   - ipykernel
   - ipywidgets
