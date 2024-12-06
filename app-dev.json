@@ -1,6 +1,6 @@
 {
     "id": "NLP-Bertopic",
-    "version": "0.1.1sha-ddc8d24",
+    "version": "0.1.1sha-63bef9e",
     "description": "Create a Jupyter Lab Kernel for NLP analysis, especially Bertopic",
     "owner": "${apiUserId}",
     "enabled": true,
@@ -74,7 +74,7 @@
               "name": "Git branch",
               "description": "The branch of the git repository to clone.",
               "inputMode": "REQUIRED",
-              "arg": "application",
+              "arg": "main",
               "notes": {
                 "isHidden": false
               }
