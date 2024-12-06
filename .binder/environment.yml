@@ -1,6 +1,7 @@
-name: llm
+name: bertopic
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - hdbscan
   - ipykernel
