@@ -1,1 +1,7 @@
-ipyfilechooser==0.6.0
+nbformat
+pymupdf==1.24.14
+transformers==4.46.3
+bertopic==0.16.4
+spacy==3.8.2
+datasets==3.1.0
+neo4j
