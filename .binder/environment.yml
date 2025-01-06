@@ -1,0 +1,19 @@
+name: bertopic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - hdbscan
+  - ipykernel
+  - ipywidgets
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - umap-learn
+  - matplotlib
+  - plotly
+
+
+
+
