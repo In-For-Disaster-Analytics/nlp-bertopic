@@ -13,6 +13,7 @@ dependencies:
   - umap-learn
   - matplotlib
   - plotly
+  - rapidsai::cuml
 
 
 
