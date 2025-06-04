@@ -1,13 +1,13 @@
 {
-  "id": "cookbook-jupyter-template-cpu",
-  "version": "0.0.1",
-  "description": "Jupyter Lab environment for CPU",
+  "id": "NLP-Bertopic-CPU",
+  "version": "0.1.1sha-6b7edfb-cpu2",
+  "description": "Create a Jupyter Lab Kernel for NLP analysis, especially Bertopic",
   "owner": "${apiUserId}",
   "enabled": true,
   "runtime": "SINGULARITY",
   "runtimeVersion": null,
   "runtimeOptions": ["SINGULARITY_RUN"],
-  "containerImage": "docker://ghcr.io/in-for-disaster-analytics/cookbook-jupyter-template-cpu:0.0.1",
+  "containerImage": "docker://ghcr.io/in-for-disaster-analytics/cookbook-jupyter-template-cpu:0.0.2",
   "jobType": "BATCH",
   "maxJobs": -1,
   "maxJobsPerUser": -1,
@@ -141,11 +141,13 @@
   },
   "tags": ["portalName: ALL"],
   "notes": {
-    "label": "Cookbook - Jupyter Lab (CPU)",
+    "label": "NLP-Bertopic-CPU",
+    "helpUrl": "https://github.com/In-For-Disaster-Analytics/nlp-bertopic",
+    "helpText": "This app creates a Jupyter Lab environment for NLP analysis, especially using the Bertopic package.",
     "hideNodeCountAndCoresPerNode": true,
     "isInteractive": true,
     "icon": "jupyter",
-    "category": "Data Processing",
-    "queueFilter": ["development"]
+    "category": "Sites and Stories",
+    "queueFilter": ["vm-small","normal","large","development","gpu-a100", "gpu-a100-dev", "gpu-a100-small"]
   }
 }
