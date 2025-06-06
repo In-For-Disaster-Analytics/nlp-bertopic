@@ -1,6 +1,6 @@
 {
   "id": "NLP-Bertopic-GPU",
-  "version": "0.1.1sha-6b7edfb-gpu",
+  "version": "0.1.1sha-10d5c73-gpu",
   "description": "Create a Jupyter Lab Kernel for NLP analysis, especially Bertopic, using GPU",
   "owner": "${apiUserId}",
   "enabled": true,
