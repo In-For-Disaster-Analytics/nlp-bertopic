@@ -1,6 +1,6 @@
 {
   "id": "NLP-Bertopic-CPU",
-  "version": "0.1.1sha-6b7edfb-cpu2",
+  "version": "0.1.1sha-10d5c73-cpu",
   "description": "Create a Jupyter Lab Kernel for NLP analysis, especially Bertopic",
   "owner": "${apiUserId}",
   "enabled": true,
